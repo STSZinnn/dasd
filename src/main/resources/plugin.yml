@@ -1,0 +1,14 @@
+name: SovereignSMP
+version: '1.7.7'
+main: com.sovereignsmp.SovereignSMPPlugin
+api-version: '1.21.11'
+description: Seven unique artifacts and Sovereign Mace; animated Dragonfang display dragon, Dragonfireball, improved Stormvault tornado
+author: SovereignSMP
+commands:
+  sovereign:
+    description: Sovereign artifacts, claiming, and administration
+    usage: /sovereign help
+permissions:
+  sovereign.admin:
+    description: Mint or recover a unique Sovereign artifact, edit config
+    default: op
